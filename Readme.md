@@ -89,7 +89,6 @@ text
    git clone <repo_url>
    cd <repo_name>
    
-
 2. *Create & activate virtual environment*:
 
    - *macOS/Linux (bash/zsh)*:
