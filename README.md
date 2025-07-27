@@ -84,22 +84,27 @@ text
 ### 🔧 Installation
 
 1. *Clone the repository*:
-
+    ```
    bash
    git clone <repo_url>
    cd <repo_name>
+    ```
    
 2. *Create & activate virtual environment*:
-
+   ```
    - *macOS/Linux (bash/zsh)*:
      bash
      python3 -m venv venv
      source venv/bin/activate
-     
+   ```
+
+   ```
    - *Windows PowerShell*:
      powershell
      python -m venv venv
      .\venv\Scripts\Activate.ps1
+
+   ```
      
 
 3. *Install dependencies*:
@@ -109,35 +114,43 @@ text
    
 
 ### 📥 Downloading the Embedding Model
-
+```
 bash
 python scripts/download_models.py
+```
 
 
 ### 🐳 Docker Usage
+```
 
 - *Build Image*:
   bash
 docker build -t persona-doc-intel .
+```
   
 - *Run Container*:
+  
   - *Linux/macOS*:
     bash
+```
 docker run --rm \
   -v "$(pwd)/data/input:/app/data/input" \
   -v "$(pwd)/data/output:/app/data/output" \
   persona-doc-intel \
   --input_json data/input/input_config.json \
   --output_file data/output/analysis_output.json
-    
+```
   - *Windows PowerShell*:
     powershell
+
+```
 docker run --rm `
   -v "${PWD}\data\input:/app/data/input" `
   -v "${PWD}\data\output:/app/data/output" `
   persona-doc-intel `
   --input_json data/input/input_config.json `
   --output_file data/output/analysis_output.json
+```
     
 
 ---
