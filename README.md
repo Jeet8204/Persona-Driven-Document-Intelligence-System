@@ -37,7 +37,7 @@ This project implements a sophisticated system designed to extract relevant info
 - *💻 CPU-Optimized & Offline Capable*: Designed for offline execution after one-time setup.
 
 ---
-
+```
 ## 📁 File Structure
 
 text
@@ -66,7 +66,7 @@ text
 
 
 ---
-
+```
 ## ⚙ Setup
 
 ### 📝 Prerequisites
