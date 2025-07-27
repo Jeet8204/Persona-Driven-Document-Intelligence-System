@@ -1,0 +1,24 @@
+# Ignore virtual environment
+venv/
+.venv/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore IDE/editor-specific files
+.vscode/
+.idea/
+
+# Ignore test reports and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Ignore local data and model directories not meant for the build
+# We copy them explicitly in the Dockerfile if needed
+data/output/*
+# Don't ignore the models directory, it needs to be copied in
+# models/
