@@ -1,32 +1,3 @@
-# import datetime
-
-# def format_output(documents_metadata, persona_role, job_task, processing_time, ranked_sections, ranked_subsections):
-#     """Formats the final results into the required JSON structure."""
-    
-#     # Filter out the similarity score for the final JSON
-#     final_sections = [
-#         {k: v for k, v in sec.items() if k != 'similarity'}
-#         for sec in ranked_sections
-#     ]
-#     final_subsections = [
-#         {k: v for k, v in sub.items() if k != 'similarity'}
-#         for sub in ranked_subsections
-#     ]
-
-#     output_data = {
-#         "metadata": {
-#             "input_documents": [doc['filename'] for doc in documents_metadata],
-#             "persona": persona_role,
-#             "job_to_be_done": job_task,
-#             "processing_timestamp": datetime.datetime.now().isoformat(),
-#             "processing_time_seconds": round(processing_time, 2)
-#         },
-#         "extracted_sections": final_sections,
-#         "subsection_analysis": final_subsections
-#     }
-#     return output_data
-
-
 
 import datetime
 
