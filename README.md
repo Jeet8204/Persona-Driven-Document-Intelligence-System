@@ -1,8 +1,5 @@
-Here is the complete `README.md` content again, formatted for direct copy-pasting into your `README.md` file:
+---
 
------
-
-```markdown
 # 📚 Persona-Driven Document Intelligence System 🎯
 
 This project implements a sophisticated system designed to extract relevant information from a collection of PDF documents and intelligently rank it based on a user-defined persona and job-to-be-done. It leverages advanced natural language processing techniques, including semantic similarity and Maximal Marginal Marginal Relevance (MMR), to provide a focused, diverse, and highly intelligent summary of the most pertinent document content. The system is engineered to operate efficiently under strict constraints, including CPU-only execution, limited model size, and offline functionality.
