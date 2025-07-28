@@ -86,10 +86,9 @@ This is the **foundation** of the pipeline. Its goal is to robustly parse PDFs r
 
 Handles semantic transformation of text using `sentence-transformers`.
 
-
+<img width="968" height="408" alt="Screenshot 2025-07-28 203034" src="https://github.com/user-attachments/assets/05ca16cf-7602-44e4-bac1-dc88415d1993" />
 
 This class is a custom wrapper built around the sentence-transformers library, providing features like lazy loading and robustness checks for your text embedding models.
-<img width="968" height="408" alt="Screenshot 2025-07-28 203034" src="https://github.com/user-attachments/assets/05ca16cf-7602-44e4-bac1-dc88415d1993" />
 
 * **Features**
     * **Lazy Model Loading:** Model loaded only on first use.
@@ -113,6 +112,11 @@ This class is a custom wrapper built around the sentence-transformers library, p
 ### 3. Ranking (`app/ranking/engine.py`)
 
 Ranks document content using semantic similarity and Maximal Marginal Relevance (MMR).
+
+<img width="1337" height="192" alt="image" src="https://github.com/user-attachments/assets/3751040d-856f-4391-ab45-8bb52509a653" />
+
+This class is designed to handle the core intelligence of your system: ranking document content based on relevance and diversity.
+
 
 * **Features**
     * **Query Construction:** Combines `persona_role` + `job_task` into one coherent query string.
