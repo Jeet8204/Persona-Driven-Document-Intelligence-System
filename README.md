@@ -190,7 +190,7 @@ python run.py \
 
 
 ---
-```
+
 ```
 ## 🛡 Troubleshooting & Tips
 
@@ -200,7 +200,7 @@ python run.py \
 - *Docker Permission Issues*: On Linux, run docker run with --user $(id -u):$(id -g).
 
 ---
-```
+
 
 ## 🏗 How It Works (Architecture Overview)
 
@@ -213,7 +213,7 @@ Refer to approach_explanation.md for component breakdown: PDF parsing, embedding
 - *📦 Model Size*: Keep under 1GB for offline compatibility.
 - *🔄 Error Handling*: Graceful fallbacks ensure stable execution on edge cases.
 - *⚙ Customization*: All thresholds and paths are configurable in app/config.py.
-```
+
 
 ```
 ##👥 Authors
@@ -221,5 +221,5 @@ Refer to approach_explanation.md for component breakdown: PDF parsing, embedding
 - *Jeet Mukherjee
 - *Shaunak Samanta
 - *Aritra Sinha
-- ```
+
 
