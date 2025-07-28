@@ -178,7 +178,6 @@ docker run --rm `
 
 - --input_json (required): Path to input JSON.
 - --output_file (optional): Output JSON path (default: data/output/<challenge_id>_output.json).
-```
 
 ```
 ### 💡 Example Usage
@@ -198,7 +197,6 @@ python run.py \
 - *Slow Embedding*: Opt for a smaller model (e.g., paraphrase-MiniLM-L3-v2) via scripts/download_models.py.
 - *High Memory Usage*: Adjust CANDIDATE_POOL_SIZE and BATCH_SIZE in app/config.py.
 - *Docker Permission Issues*: On Linux, run docker run with --user $(id -u):$(id -g).
-
 ---
 
 
@@ -215,8 +213,8 @@ Refer to approach_explanation.md for component breakdown: PDF parsing, embedding
 - *⚙ Customization*: All thresholds and paths are configurable in app/config.py.
 
 
-```
-##👥 Authors
+
+## 👥 Authors
 
 - *Jeet Mukherjee
 - *Shaunak Samanta
