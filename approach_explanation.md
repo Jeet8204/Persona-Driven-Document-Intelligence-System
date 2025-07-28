@@ -86,6 +86,11 @@ This is the **foundation** of the pipeline. Its goal is to robustly parse PDFs r
 
 Handles semantic transformation of text using `sentence-transformers`.
 
+
+
+This class is a custom wrapper built around the sentence-transformers library, providing features like lazy loading and robustness checks for your text embedding models.
+<img width="968" height="408" alt="Screenshot 2025-07-28 203034" src="https://github.com/user-attachments/assets/05ca16cf-7602-44e4-bac1-dc88415d1993" />
+
 * **Features**
     * **Lazy Model Loading:** Model loaded only on first use.
         ```python
