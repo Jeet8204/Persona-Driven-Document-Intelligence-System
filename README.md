@@ -173,12 +173,14 @@ docker run --rm `
   ]
 }
 
-
+```
 ### 🔢 Command-Line Arguments
 
 - --input_json (required): Path to input JSON.
 - --output_file (optional): Output JSON path (default: data/output/<challenge_id>_output.json).
+```
 
+```
 ### 💡 Example Usage
 
 bash
@@ -188,7 +190,8 @@ python run.py \
 
 
 ---
-
+```
+```
 ## 🛡 Troubleshooting & Tips
 
 - *Missing Text Extraction*: Verify PyMuPDF compatibility; use OCR fallback by setting OCR_RESOLUTION_DPI in app/config.py.
@@ -197,22 +200,26 @@ python run.py \
 - *Docker Permission Issues*: On Linux, run docker run with --user $(id -u):$(id -g).
 
 ---
+```
 
 ## 🏗 How It Works (Architecture Overview)
 
 Refer to approach_explanation.md for component breakdown: PDF parsing, embedding, ranking (MMR), and JSON formatting. The system is fully modular and CPU-optimized.
 
 ---
-
+```
 ## ⚠ Important Notes
 
 - *📦 Model Size*: Keep under 1GB for offline compatibility.
 - *🔄 Error Handling*: Graceful fallbacks ensure stable execution on edge cases.
 - *⚙ Customization*: All thresholds and paths are configurable in app/config.py.
+```
 
+```
 ##👥 Authors
 
 - *Jeet Mukherjee
 - *Shaunak Samanta
 - *Aritra Sinha
+- ```
 
