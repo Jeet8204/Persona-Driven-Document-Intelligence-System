@@ -32,6 +32,7 @@ This project implements a sophisticated system designed to extract relevant info
 - *🧠 Semantic Embedding*: High-quality, normalized embeddings via Sentence Transformers.
 - *👤 Persona-Driven Ranking*: Semantic relevance to persona-and-task query.
 - *🌐 Diversity-Aware Ranking (MMR)*: Balances relevance and novelty to avoid redundancy.
+- *💡 **Multilingual Heading Detection** (English, Hindi, French)
 - *🏆 Fixed Top 5 Results*: Presents the top 5 most relevant and diverse text segments.
 - *📊 Structured JSON Output*: Clean, consumable JSON without internal metadata.
 - *💻 CPU-Optimized & Offline Capable*: Designed for offline execution after one-time setup.
@@ -159,7 +160,9 @@ docker run --rm `
 
 ### 📂 Input JSON Structure
 
-json
+**The `input.json` file must be added to `data/input/`.**
+
+```json
 {
   "challenge_info": { "challenge_id": "challenge1b" },
   "persona": { "role": "Your Persona Role" },
@@ -206,3 +209,10 @@ Refer to approach_explanation.md for component breakdown: PDF parsing, embedding
 - *📦 Model Size*: Keep under 1GB for offline compatibility.
 - *🔄 Error Handling*: Graceful fallbacks ensure stable execution on edge cases.
 - *⚙ Customization*: All thresholds and paths are configurable in app/config.py.
+
+##👥 Authors
+
+- *Jeet Mukherjee
+- *Shaunak Samanta
+- *Aritra Sinha
+
