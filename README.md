@@ -227,7 +227,7 @@ Refer to `approach_explanation.md` for a detailed component breakdown: PDF parsi
 
 
 
-##Acknowledgement
+## Acknowledgement
 
   * Adobe Hackathon 2025 – Challenge inspiration
   * HuggingFace `sentence-transformers` for semantic similarity
