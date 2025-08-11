@@ -47,28 +47,28 @@ To clearly visualize the project's file organization on GitHub:
 
 ```
 
-persona\_document\_intel/                      \# 🚀 Root project directory
+persona\_document\_intel/                      \# Root project directory
 ├── app/                                     \# Core application modules
 │   ├── config.py                            \# ⚙ Configuration settings and constants
 │   ├── io/                                  \# Input/Output formatting
-│   │   └── formatter.py                     \# 📄 JSON output schema implementation
+│   │   └── formatter.py                     \# JSON output schema implementation
 │   ├── processing/                          \# PDF parsing and cleaning logic
-│   │   └── pdf\_parser.py                    \# 📄 Stateful heading detection & OCR fallback
+│   │   └── pdf\_parser.py                    \# Stateful heading detection & OCR fallback
 │   └── ranking/                             \# Embedding and ranking engine
-│       ├── embedding.py                     \# 📄 Sentence Transformer integration
-│       └── engine.py                        \# 📄 MMR-based ranking implementation
+│       ├── embedding.py                     \# Sentence Transformer integration
+│       └── engine.py                        \# MMR-based ranking implementation
 ├── data/                                    \# Input/output storage for runs
-│   ├── input/                               \# 📂 PDF files and config JSONs for processing
-│   └── output/                              \# 📂 Generated analysis JSON outputs
-├── models/                                  \# 📦 Downloaded Sentence Transformer models
+│   ├── input/                               \# PDF files and config JSONs for processing
+│   └── output/                              \# Generated analysis JSON outputs
+├── models/                                  \# Downloaded Sentence Transformer models
 ├── scripts/                                 \# Utility scripts
-│   └── download\_models.py                   \# 📄 Model download helper
-├── tests/                                   \# 🧪 Unit test suite
-│   └── test\_ranking.py                      \# 📄 Ranking engine tests
-├── venv/                                    \# 🐍 Python virtual environment (local setup)
-├── Dockerfile                               \# 🐳 Container configuration for reproducible execution
-├── requirements.txt                         \# 📜 Python dependencies list
-└── run.py                                   \# 🚀 Command-Line Interface (CLI) entry point
+│   └── download\_models.py                   \# Model download helper
+├── tests/                                   \# Unit test suite
+│   └── test\_ranking.py                      \# Ranking engine tests
+├── venv/                                    \# Python virtual environment (local setup)
+├── Dockerfile                               \# Container configuration for reproducible execution
+├── requirements.txt                         \# Python dependencies list
+└── run.py                                   \# Command-Line Interface (CLI) entry point
 
 ````
 
